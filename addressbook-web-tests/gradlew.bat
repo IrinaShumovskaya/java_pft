@@ -14,7 +14,7 @@ set APP_BASE_NAME=%~n0
 set APP_HOME=%DIRNAME%
 
 @rem Add default JVM options here. You can also use JAVA_OPTS and GRADLE_OPTS to pass JVM options to this script.
-set DEFAULT_JVM_OPTS=-Dhttp.proxyHost=pxgot5.srv.volvo.com -Dhttp.proxyPort=8118 -Dhttp.proxyUser=VCN\a260717 -Dhttp.proxyPassword=Ghb,skm44  -Dhttps.proxyHost=pxgot5.srv.volvo.com -Dhttps.proxyPort=8118 -Dhttps.proxyUser=VCN\a260717-Dhttps.proxyPassword=Ghb,skm44
+set DEFAULT_JVM_OPTS=-Dhttp.proxyHost=pxgot5.srv.volvo.com -Dhttp.proxyPort=8118 -Dhttp.proxyUser=VCN\a260717 -Dhttp.proxyPassword=Ghb,skm44  -Dhttps.proxyHost=pxgot5.srv.volvo.com -Dhttps.proxyPort=8118 -Dhttps.proxyUser=VCN\a260717 -Dhttps.proxyPassword=Ghb,skm44
 
 @rem Find java.exe
 if defined JAVA_HOME goto findJavaFromJavaHome
