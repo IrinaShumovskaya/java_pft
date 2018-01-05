@@ -2,7 +2,6 @@ package pl.stqa.pft.addressbook.appmanager;
 
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
-
 import java.util.concurrent.TimeUnit;
 
 public class ApplicationManager {
@@ -12,8 +11,6 @@ public class ApplicationManager {
   private SessionHelper sessionHelper;
   private NavigationHelper navigationHelper;
   private GroupHelper gropHelper;
-
-
 
   public void init() {
     wd = new FirefoxDriver(new FirefoxOptions().setLegacy(true));
