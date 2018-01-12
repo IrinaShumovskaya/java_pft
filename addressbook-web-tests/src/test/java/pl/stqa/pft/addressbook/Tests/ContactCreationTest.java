@@ -1,4 +1,4 @@
-package pl.stqa.pft.addressbook.Tests;
+package pl.stqa.pft.addressbook.tests;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
